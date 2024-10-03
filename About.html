@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        body {
+            background-color: lightgray;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            padding: 5px;
+            text-align: center;
+        }
+        .topnav {
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+        .topnav a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            width: 100px;
+        }
+        .body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        .left, .right {
+            flex: 1 1 45%;
+            margin: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .right {
+            background-color: lightyellow;
+            text-align: center;
+        }
+        .img-box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+        }
+        .img-box img {
+            width: 100%;
+            max-width: 23%;
+            margin: 1%;
+            box-sizing: border-box;
+        }
+        footer {
+            text-align: center;
+            padding: 3px;
+            background-color: lightyellow; 
+        }
+        @media (max-width: 768px) {
+            .left, .right {
+                flex: 1 1 100%;
+            }
+            .img-box img {
+                max-width: 48%;
+            }
+        }
+        @media (max-width: 480px) {
+            .img-box img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    </div>
+    <div class="topnav">
+        <a href="Index.html">Home</a>
+        <a href="About.html">About me</a>
+    </div>
+    <div class="body">
+        <div class="left">
+            <p>I’m Collen Villas, a student of West Visayas State University, Lambunao campus. The images capture various moments of my academic journey and personal reflection. In the first picture, my gaze upward represents my ambition and the contemplation of my future goals. The second image highlights my active engagement in university activities, presenting a poster as part of an academic requirement, reflecting my dedication to learning and growth. Lastly, the outdoor setting in the third picture shows a balance between my academic life and personal well-being, symbolizing the importance of taking time for reflection and grounding myself in nature as I navigate through university life.</p>
+            
+        </div>
+    </div>
+    <div class="img-box">
+        <img src="11.jpg" alt="Image 1">
+        <img src="3.jpeg" alt="Image 3">
+        <img src="4.jpeg" alt="Image 4">
+    </div>
+    <footer>
+        Collen Cansional Villas
+    </footer>
+</body>
+</html>
